@@ -1,0 +1,72 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button {
+    height: 250px;
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: cadetblue;
+    font-size: 20pt;
+    font-weight: bold;
+    text-shadow:0px 0px 5px white;
+    transition: .2s;
+}
+button:hover {
+    box-shadow: 0px 10px 20px black;
+    transform: scale(1.1);
+    cursor: pointer;
+    
+    
+}
+
+#up {
+    background-image: url('../images/uparrow.png');
+    background-repeat: no-repeat;
+}
+#up:hover{
+    animation: updelize 0.8s;
+}
+
+#down {
+    background-image: url('../images/arrowdown.png');
+    background-repeat: no-repeat;
+}
+#down:hover {
+    animation: downdelize 0.8s;
+}
+#cad {
+    background-image: url('../images/edit.png');
+    background-repeat: no-repeat;
+
+}
+
+    
+img {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+@keyframes updelize {
+    0% {
+        background-position: 0px 250px;
+    }
+    100%{
+        background-position: 0px 0px;
+    }
+}
+@keyframes downdelize {
+    0% {
+        background-position: 0px -250px;
+    }
+    100%{
+        background-position: 0px 0px;
+    }
+}
