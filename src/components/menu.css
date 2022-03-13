@@ -4,9 +4,9 @@
     justify-content: center;
 }
 
-button {
-    height: 250px;
-    width: 250px;
+.menuButton {
+    width: 200px;
+    height: 200px;
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 10px;
@@ -16,8 +16,9 @@ button {
     font-weight: bold;
     text-shadow:0px 0px 5px white;
     transition: .2s;
+    background-size: cover;
 }
-button:hover {
+.menuButton:hover {
     box-shadow: 0px 10px 20px black;
     transform: scale(1.1);
     cursor: pointer;
@@ -70,3 +71,5 @@ img {
         background-position: 0px 0px;
     }
 }
+
+

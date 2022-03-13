@@ -6,17 +6,17 @@ import "./menu.css"
 
 function Menu() {
     return (
-        <div class="menu">
+        <div className="menu">
             <Link to="/cadastro">
-                <button id="cad">Cadastro</button>
+                <button id="cad" className="menuButton">Cadastro</button>
             </Link>
             <Link to="/entrada">
-                <button id="up">Entrada</button>
+                <button id="up" className="menuButton">Entrada</button>
             </Link>
             <Link to="saida">
-                <button id="down">Saída</button>
+                <button id="down" className="menuButton">Saída</button>
             </Link>
-            
+
             
         </div>
     )
