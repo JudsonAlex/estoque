@@ -1,0 +1,32 @@
+.logo{
+    background-color: #232C50;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    background-color: #232C50;
+}
+ .links{
+     color: white;
+}
+
+.content{
+    display: flex;
+}
+
+.statistcs{
+    display: flex;
+}
+
+#cadastrados{
+    background-color: #377CE4;
+}
+
+#alerta{
+    background-color: #C6CA10;
+}
+#zero{
+    background-color: #D43232;
+}
